@@ -110,5 +110,5 @@ class CustomFrame(wx.Frame):
 
 if __name__ == '__main__':
     ex = wx.App()
-    CustomFrame(None, title='crash_anasynic')
+    CustomFrame(None, title='Max Crash Analysis')
     ex.MainLoop()
