@@ -8,9 +8,20 @@ Usage:
 from setuptools import setup
 
 APP = ['app.py']
+APP_NAME = 'Max Crash Analysis'
 DATA_FILES = []
 OPTIONS = {'argv_emulation': True,
-           'iconfile':'icon.icns'}
+           'iconfile':'icon.icns',
+           'plist': {
+               'CFBundleName': APP_NAME,
+               'CFBundleDisplayName': APP_NAME,
+               'CFBundleGetInfoString': "Crash Analysis",
+               'CFBundleIdentifier': "com.mmmmmax.wang",
+               'CFBundleVersion': "0.1.0",
+               'CFBundleShortVersionString': "0.1.0",
+               'NSHumanReadableCopyright': u"Copyright © 2015, Max Wang, All Rights Reserved"
+           }
+           }
 
 setup(
     app=APP,
