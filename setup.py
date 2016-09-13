@@ -18,9 +18,7 @@ OPTIONS = {'argv_emulation': True,
                'CFBundleGetInfoString': "Crash Analysis",
                'CFBundleIdentifier': "com.mmmmmax.wang",
                'CFBundleVersion': "0.1.0",
-               'CFBundleShortVersionString': "0.1.0",
-               'NSHumanReadableCopyright': u"Copyright © 2015, Max Wang, All Rights Reserved"
-           }
+               'CFBundleShortVersionString': "0.1.0"}
            }
 
 setup(
